@@ -1,0 +1,90 @@
+.box{
+	margin: 0;
+	padding: 0;
+	background: url('background.jpg');
+	width: 600px;
+	height: 500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.new{
+	width: 15%;
+	font-size: 30px;
+	border: 2px solid black;
+	background-color: red;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.date{
+	width: 15%;
+	font-size: 30px;
+	border: 2px solid blue;
+	background-color: red;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+@keyframes colorwillchangetorainbow{
+	0%{
+		background-color: red;
+	}
+	14%{
+		background-color: orange;
+	}
+	28%{
+		background-color: yellow;
+	}
+	42%{
+		background-color: green;
+	}
+	56%{
+		background-color: blue;
+	}
+	70%{
+		background-color: indigo;
+	}
+	84%{
+		background-color: violet;
+	}
+}
+
+
+.hello{
+	width: 30%;
+	font-size: 20px;
+	border: 2px solid coral;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	animation-name: colorwillchangetorainbow;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+}
+
+
+
+.button{
+	width: 40px;
+	height: 40px;
+	border: 2px solid black;
+	background-color: coral;
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+	border-radius: 50%;
+	font-size: 30px;
+	transition: all 3s;
+	cursor: pointer;
+}
+
+.button:hover{
+	transform: translateX(20px);
+}
+
+
