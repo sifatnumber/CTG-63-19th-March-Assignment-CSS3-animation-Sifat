@@ -87,4 +87,7 @@
 	transform: translateX(20px);
 }
 
-
+.wrapper{
+	width: 980px;
+	margin: 0 auto;
+}
